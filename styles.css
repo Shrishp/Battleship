@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hwb(73 82% 15%);
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    margin: 2px;
+    display: inline-block;
+    align-items: center;
+    background-size: cover;  /* Ensures the image covers the entire box */
+    background-position: center;  /* Centers the image in the box */
+}
+.usedBox {
+    background-color: rgb(117, 34, 34);
+}
+h1 {
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline;
+    font-size: 24px;
+}
+p {
+    text-align: center;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+button {
+    font-size: 15px;
+    background-color: aliceblue;
+    box-shadow: 5px;
+    margin-top: 10px;   
+}
